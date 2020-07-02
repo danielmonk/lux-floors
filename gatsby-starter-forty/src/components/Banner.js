@@ -4,13 +4,12 @@ const Banner = (props) => (
     <section id="banner" className="major">
         <div className="inner">
             <header className="major">
-                <h1>Hi, my name is Forty</h1>
+                <h2 className="boxed">The home of <strong>Luxury</strong> <span>domestic</span> and <span>commercial</span> floors</h2>
             </header>
             <div className="content">
-                <p>A responsive site template designed by HTML5 UP<br />
-                and released under the Creative Commons.</p>
+            <p>We specialise in supplying and fitting professional wood & other easy-to-fit floor coverings.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" className="button next scrolly">Enquire now</a></li>
                 </ul>
             </div>
         </div>

@@ -10,6 +10,20 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
+import pic08 from '../assets/images/pic08.jpg'
+import pic09 from '../assets/images/pic09.jpg'
+import pic10 from '../assets/images/pic10.jpg'
+import garagepic from '../assets/images/IMG_1293.jpg'
+import gallerypic1 from '../assets/images/IMG_1644.jpg'
+import gallerypic2 from '../assets/images/IMG_2125.jpg'
+import gallerypic3 from '../assets/images/IMG_2132.jpg'
+import gallerypic4 from '../assets/images/IMG_2133.jpg'
+import gallerypic5 from '../assets/images/IMG_2156.jpg'
+import gallerypic6 from '../assets/images/IMG_2533.jpg'
+import gallerypic7 from '../assets/images/IMG_2534.jpg'
+import gallerypic8 from '../assets/images/IMG_3266.jpg'
+import gallerypic9 from '../assets/images/IMG_3505.jpg'
+
 
 class HomeIndex extends React.Component {
     render() {
@@ -28,59 +42,70 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
-                    <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
-                            <header className="major">
-                                <h3>Aliquam</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
-                            <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
-                            <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
-                            <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
-                            <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
-                            </header>
-                            <Link to="/landing" className="link primary"></Link>
-                        </article>
+                <section id="one">
+                    <div className="inner">
+                    <header className="major smaller">
+                         <h2 className="boxed">A solution for <span>all</span> your <span>flooring</span> needs</h2>
+                    </header>
+                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                        <div className="box alt">
+                            <div className="grid-wrapper">
+                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span></div>
+                            </div>
+                            <ul className="actions">
+                                <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="three" className="spotlights">
+                        <section>
+                            <Link to="/generic" className="image">
+                                <img src={gallerypic4} alt="" />
+                            </Link>
+                            <div className="content">
+                                <div className="inner">
+                                    <header className="major smaller">
+                                        <h3 className="boxed"><strong>Lux</strong> <span>Floors</span></h3>
+                                    </header>
+                                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                    <ul className="actions">
+                                        <li><Link to="/generic" className="button">Learn more</Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                        <Link to="/generic" className="image">
+                            <img src={garagepic} alt="" />
+                        </Link>
+                        <div className="content">
+                            <div className="inner">
+                                <header className="major smaller">
+                                    <h3 className="boxed"><strong>Lux</strong> <span>Garage</span></h3>
+                                </header>
+                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                <ul className="actions">
+                                    <li><Link to="/generic" className="button">Learn more</Link></li>
+                                </ul>
+                            </div>
+                        </div>
+                        </section>
                     </section>
                     <section id="two">
                         <div className="inner">
-                            <header className="major">
-                                <h2>Massa libero</h2>
+                            <header className="major smaller">
+                                <h3 className="boxed">What our <span>Clients</span> say about <span>us</span></h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
-                            </ul>
+                            <blockquote>"Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                            <br />
+                            <span className="name">John Smith</span>
+                            </blockquote>
                         </div>
                     </section>
                 </div>

@@ -8,7 +8,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/banner.jpg")');
+		@include vendor('background-image', 'url("../images/lux-floors-hero.jpeg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -44,6 +44,21 @@
 			font-size: 3.25em;
 		}
 
+		h2{
+			width: auto;
+			font-size: 2.75em;
+			line-height: 1.25;
+			padding-right: 20%;
+			padding: 15px 20% 15px 15px;
+
+			@include breakpoint(small) {
+				font-size: 1.8em;
+			}
+
+			
+			
+		}
+
 		> .inner {
 			@include vendor('transition', (
 				'opacity 1.5s ease',
@@ -61,6 +76,12 @@
 
 			header {
 				width: auto;
+				padding-right:20%;
+
+				@include breakpoint(small) {
+					padding-right:0%;
+				}
+
 
 				> :first-child {
 					width: auto;
@@ -90,6 +111,16 @@
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
+					max-width: 50%;
+					/*
+					background: #fff;
+					color:_palette(bg);
+					padding: 15px;
+					*/
+
+					@include breakpoint(small) {
+						max-width:100%;
+					}
 				}
 			}
 		}

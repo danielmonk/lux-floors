@@ -64,10 +64,25 @@
 		font-weight: _font(weight-bold);
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		font-family: _font(family-heads);
 
 		a {
 			color: inherit;
 			border-bottom: 0;
+		}
+
+		&.boxed{
+			background:#fff;
+			padding:5px 15px;
+			color:_palette(bg);
+			text-transform:uppercase;
+			font-weight:300;
+			strong{
+				color:_palette(accent2);
+			}
+			span{
+				font-weight:600;
+			}
 		}
 	}
 
@@ -126,6 +141,12 @@
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+		span{
+			margin-top:20px;
+			display: block;
+			font-weight:bold;
+			font-size: 18px;
+		}
 	}
 
 	code {
