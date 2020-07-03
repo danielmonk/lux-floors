@@ -26,4 +26,23 @@
 		.actions{
 			text-align:center;
 		}
+
+		p{
+			text-transform: uppercase;
+			font-weight: 300;
+			font-family: _font(family-heads);
+
+			&:after{
+				content: '';
+				background-color: #1D3957;
+				display: block;
+				height: 2px;
+				margin: 0 0 0.5em 0;
+				width: 100%;
+			}
+
+			span{
+				font-weight:bold;
+			}
+		}
 	}

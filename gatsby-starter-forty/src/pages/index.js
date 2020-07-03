@@ -23,6 +23,7 @@ import gallerypic6 from '../assets/images/IMG_2533.jpg'
 import gallerypic7 from '../assets/images/IMG_2534.jpg'
 import gallerypic8 from '../assets/images/IMG_3266.jpg'
 import gallerypic9 from '../assets/images/IMG_3505.jpg'
+import fivestars from '../assets/images/five-stars.png'
 
 
 class HomeIndex extends React.Component {
@@ -50,12 +51,13 @@ class HomeIndex extends React.Component {
                     <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
                         <div className="box alt">
                             <div className="grid-wrapper">
-                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
+                                <p><span>Wooden</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span><p><span>Wooden</span> floor</p></div>
                             </div>
                             <ul className="actions">
                                 <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
@@ -99,13 +101,38 @@ class HomeIndex extends React.Component {
                     </section>
                     <section id="two">
                         <div className="inner">
-                            <header className="major smaller">
+                            <header className="major smaller centered">
                                 <h3 className="boxed">What our <span>Clients</span> say about <span>us</span></h3>
                             </header>
-                            <blockquote>"Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
-                            <br />
-                            <span className="name">John Smith</span>
-                            </blockquote>
+                            <div className="grid-wrapper quotes">
+                                <div className="col col-4">
+                                    <blockquote>
+                                        <img src={fivestars} alt="" />
+                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                    <br />
+                                    <span className="name">John Smith</span>
+                                    <p>July 2020</p>
+                                    </blockquote>
+                                </div>
+                                <div className="col col-4">
+                                    <blockquote>
+                                        <img src={fivestars} alt="" />
+                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                    <br />
+                                    <span className="name">John Smith</span>
+                                    <p>July 2020</p>
+                                    </blockquote>
+                                </div>
+                                <div className="col col-4">
+                                    <blockquote>
+                                        <img src={fivestars} alt="" />
+                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                    <br />
+                                    <span className="name">John Smith</span>
+                                    <p>July 2020</p>
+                                    </blockquote>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>

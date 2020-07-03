@@ -72,9 +72,9 @@
 		}
 
 		&.boxed{
-			background:#fff;
+			background:_palette(bg);
 			padding:5px 15px;
-			color:_palette(bg);
+			color:#fff;
 			text-transform:uppercase;
 			font-weight:300;
 			strong{
@@ -141,6 +141,13 @@
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
+
+		@include breakpoint(small) {
+			border-bottom: solid 4px _palette(border);
+			border-left: 0;
+		}
+
+
 		span{
 			margin-top:20px;
 			display: block;
