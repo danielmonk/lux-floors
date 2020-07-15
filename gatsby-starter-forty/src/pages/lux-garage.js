@@ -7,6 +7,10 @@ import BannerGarage from '../components/BannerGarage'
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
+import gallerypic1 from '../assets/images/IMG_1644.jpg'
+import gallerypic2 from '../assets/images/IMG_2125.jpg'
+import gallerypic3 from '../assets/images/IMG_2132.jpg'
+import gallerypic4 from '../assets/images/IMG_2133.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -59,22 +63,25 @@ const Landing = (props) => (
                         </div>
                     </div>
                 </section>
-                <section>
-                    <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
-                    </Link>
-                    <div className="content">
-                        <div className="inner">
-                            <header className="major">
-                                <h3>Sed nunc ligula</h3>
-                            </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                            <ul className="actions">
-                                <li><Link to="/generic" className="button">Learn more</Link></li>
-                            </ul>
+            </section>
+            <section id="two">
+                <div className="inner">
+                <header className="major smaller">
+                        <h2 className="boxed">A solution for <span>all</span> your <span>flooring</span> needs</h2>
+                </header>
+                <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <div className="box alt">
+                        <div className="grid-wrapper">
+                            <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
+                            <p><span>Wooden</span> floor</p></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Wooden</span> floor</p></div>
                         </div>
+                        <ul className="actions">
+                            <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
+                        </ul>
                     </div>
-                </section>
+                </div>
             </section>
         </div>
 

@@ -9,7 +9,7 @@ const Banner = (props) => (
             <div className="content">
             <p>We specialise in supplying and fitting professional wood & other easy-to-fit floor coverings.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Enquire now</a></li>
+                    <li><a href="#contact" className="button next scrolly">Enquire now</a></li>
                 </ul>
             </div>
         </div>

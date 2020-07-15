@@ -57,6 +57,10 @@
 					margin: 0 auto;
 					max-width: 100%;
 					width: _size(inner);
+					
+					@include breakpoint(small) {
+						width:calc(100% - 2em);
+					}
 				}
 			}
 

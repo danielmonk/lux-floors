@@ -49,6 +49,10 @@
 				margin-bottom: 0;
 				width: calc(100% + 0.5em);
 
+				@include breakpoint(small) {
+					width:100%;
+				}
+
 				&:after {
 					content: '';
 					background-color: _palette(accent1);

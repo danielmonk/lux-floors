@@ -24,6 +24,7 @@
 		}
 
 		.actions{
+			margin-top:20px;
 			text-align:center;
 		}
 
@@ -32,7 +33,7 @@
 			font-weight: 300;
 			font-family: _font(family-heads);
 			display:inline-block;
-			margin-bottom:0.5em;
+			margin-bottom:1.5em;
 
 			&:after{
 				content: '';

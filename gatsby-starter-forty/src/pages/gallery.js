@@ -2,7 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-
+import SimpleReactLightbox from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 import gallerypic1 from '../assets/images/IMG_1644.jpg'
 import gallerypic2 from '../assets/images/IMG_2125.jpg'
 import gallerypic3 from '../assets/images/IMG_2132.jpg'
@@ -14,6 +15,7 @@ import gallerypic8 from '../assets/images/IMG_3266.jpg'
 import gallerypic9 from '../assets/images/IMG_3505.jpg'
 
 const Elements = (props) => (
+    <SimpleReactLightbox>
     <Layout>
         <Helmet>
             <title>Gallery</title>
@@ -27,6 +29,7 @@ const Elements = (props) => (
                     <header className="major">
                         <h1>Gallery</h1>
                     </header>
+                    <SRLWrapper>
                     <div className="box alt">
                         <p><span>Wooden</span> floor</p>
                         <div className="grid-wrapper">
@@ -71,13 +74,14 @@ const Elements = (props) => (
                             <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span></div>
                         </div>
                     </div>
-
+                    </SRLWrapper>
                 </div>
             </section>
 
         </div>
 
     </Layout>
+    </SimpleReactLightbox>
 )
 
 export default Elements

@@ -39,8 +39,17 @@
 			width: calc(100% - 6em);
 
 			@include breakpoint(small) {
-				@include padding(3em, 0);
+				@include padding(3em, 15px);
 				width: calc(100% - 3em);
+			}
+
+			&.padded-right{
+				width:60%;
+				//margin:0 auto 0 3em;
+				
+				@include breakpoint(small) {
+					width: calc(100% - 3em);
+				}
 			}
 		}
 	}

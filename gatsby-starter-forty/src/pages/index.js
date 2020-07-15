@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
-
+import SimpleReactLightbox from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
@@ -30,6 +31,7 @@ class HomeIndex extends React.Component {
     render() {
 
         return (
+            <SimpleReactLightbox>
             <Layout>
                 <Helmet
                     title="Gatsby Starter - Forty"
@@ -50,6 +52,7 @@ class HomeIndex extends React.Component {
                     </header>
                     <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
                         <div className="box alt">
+                            <SRLWrapper>
                             <div className="grid-wrapper">
                                 <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
                                 <p><span>Wooden</span> floor</p></div>
@@ -59,6 +62,7 @@ class HomeIndex extends React.Component {
                                 <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Wooden</span> floor</p></div>
                                 <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span><p><span>Wooden</span> floor</p></div>
                             </div>
+                            </SRLWrapper>
                             <ul className="actions">
                                 <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
                             </ul>
@@ -67,7 +71,7 @@ class HomeIndex extends React.Component {
                 </section>
                 <section id="three" className="spotlights">
                         <section>
-                            <Link to="/generic" className="image">
+                            <Link to="/lux-floors" className="image">
                                 <img src={gallerypic4} alt="" />
                             </Link>
                             <div className="content">
@@ -75,15 +79,15 @@ class HomeIndex extends React.Component {
                                     <header className="major smaller">
                                         <h3 className="boxed"><strong>Lux</strong> <span>Floors</span></h3>
                                     </header>
-                                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                                    <p>We offer endless different variations of high quality flooring options to meet your needs. From herringbone laminate wood flooring to luxurious all-purpose carpets, we specialise in having a a solution for all your flooring needs.</p>
                                     <ul className="actions">
-                                        <li><Link to="/generic" className="button">Learn more</Link></li>
+                                        <li><Link to="/lux-floors" className="button">Learn more</Link></li>
                                     </ul>
                                 </div>
                             </div>
                         </section>
                         <section>
-                        <Link to="/generic" className="image">
+                        <Link to="/lux-garage" className="image">
                             <img src={garagepic} alt="" />
                         </Link>
                         <div className="content">
@@ -93,7 +97,7 @@ class HomeIndex extends React.Component {
                                 </header>
                                 <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
                                 <ul className="actions">
-                                    <li><Link to="/generic" className="button">Learn more</Link></li>
+                                    <li><Link to="/lux-garage" className="button">Learn more</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -138,6 +142,7 @@ class HomeIndex extends React.Component {
                 </div>
 
             </Layout>
+            </SimpleReactLightbox>
         )
     }
 }
