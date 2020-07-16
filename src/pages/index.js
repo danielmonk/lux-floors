@@ -34,9 +34,9 @@ class HomeIndex extends React.Component {
             <SimpleReactLightbox>
             <Layout>
                 <Helmet
-                    title="Gatsby Starter - Forty"
+                    title="Lux Floors"
                     meta={[
-                        { name: 'description', content: 'Sample' },
+                        { name: 'description', content: 'Description' },
                         { name: 'keywords', content: 'sample, something' },
                     ]}
                 >
