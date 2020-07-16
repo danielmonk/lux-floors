@@ -48,4 +48,10 @@
 				font-weight:bold;
 			}
 		}
+
+		img{
+			&:hover{
+				cursor: pointer;
+			}
+		}
 	}

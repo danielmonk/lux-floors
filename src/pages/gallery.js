@@ -31,7 +31,7 @@ const Elements = (props) => (
                     </header>
                     <SRLWrapper>
                     <div className="box alt">
-                        <p><span>Wooden</span> floor</p>
+                        <p><span>Wooden</span> effects</p>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
@@ -42,7 +42,7 @@ const Elements = (props) => (
                         </div>
                     </div>
                     <div className="box alt">
-                        <p><span>Wooden</span> floor</p>
+                        <p><span>Bespoke</span> floor</p>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
@@ -53,7 +53,7 @@ const Elements = (props) => (
                         </div>
                     </div>
                     <div className="box alt">
-                        <p><span>Wooden</span> floor</p>
+                        <p><span>Carpets</span></p>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
@@ -64,7 +64,18 @@ const Elements = (props) => (
                         </div>
                     </div>
                     <div className="box alt">
-                        <p><span>Wooden</span> floor</p>
+                        <p><span>Safety</span> flooring</p>
+                        <div className="grid-wrapper">
+                            <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span></div>
+                        </div>
+                    </div>
+                    <div className="box alt">
+                        <p><span>Garage</span> flooring</p>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
