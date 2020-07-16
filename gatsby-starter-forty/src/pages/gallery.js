@@ -4,15 +4,15 @@ import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
-import gallerypic1 from '../assets/images/IMG_1644.jpg'
-import gallerypic2 from '../assets/images/IMG_2125.jpg'
-import gallerypic3 from '../assets/images/IMG_2132.jpg'
-import gallerypic4 from '../assets/images/IMG_2133.jpg'
-import gallerypic5 from '../assets/images/IMG_2156.jpg'
-import gallerypic6 from '../assets/images/IMG_2533.jpg'
-import gallerypic7 from '../assets/images/IMG_2534.jpg'
-import gallerypic8 from '../assets/images/IMG_3266.jpg'
-import gallerypic9 from '../assets/images/IMG_3505.jpg'
+import gallerypic1 from '../assets/images/img_1644.jpg'
+import gallerypic2 from '../assets/images/img_2125.jpg'
+import gallerypic3 from '../assets/images/img_2132.jpg'
+import gallerypic4 from '../assets/images/img_2133.jpg'
+import gallerypic5 from '../assets/images/img_2156.jpg'
+import gallerypic6 from '../assets/images/img_2533.jpg'
+import gallerypic7 from '../assets/images/img_2534.jpg'
+import gallerypic8 from '../assets/images/img_3266.jpg'
+import gallerypic9 from '../assets/images/img_3505.jpg'
 
 const Elements = (props) => (
     <SimpleReactLightbox>
