@@ -145,6 +145,7 @@
 		@include breakpoint(small) {
 			border-bottom: solid 4px _palette(border);
 			border-left: 0;
+			padding:(_size(element-margin) / 4) 0 (_size(element-margin) / 4) 0;
 		}
 
 

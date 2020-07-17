@@ -4,6 +4,26 @@
 	margin-bottom: 2em;
 }
 
+
+.grid-wrapper {
+	&.quotes{
+		.col{
+			text-align:center;
+			&:first-child{
+				blockquote{
+					border-left:0;
+				}
+			}
+			img{
+				max-width: 125px;
+				display: block;
+				text-align: center;
+				margin: 0 auto 15px;
+			}
+		}
+	}
+}
+
 @media screen and (min-width: 981px) {
 
 	.grid-wrapper {
@@ -12,23 +32,6 @@
 		grid-template-columns: repeat(12, 1fr);
 		margin: 0 auto;
 		width: 100%;
-
-		&.quotes{
-			.col{
-				text-align:center;
-				&:first-child{
-					blockquote{
-						border-left:0;
-					}
-				}
-				img{
-					max-width: 125px;
-					display: block;
-					text-align: center;
-					margin: 0 auto 15px;
-				}
-			}
-		}
 	}
 
 	/* Generate Columns 1 through 12 */
