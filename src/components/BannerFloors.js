@@ -7,7 +7,7 @@ const BannerFloors = (props) => (
                 <h1 className="boxed"><strong>Lux</strong> <span>Floors</span></h1>
             </header>
             <div className="content">
-                <p>WE SPECIALISE IN SUPPLYING AND FITTING PROFESSIONAL WOOD & OTHER EASY-TO-FIT FLOOR COVERINGS.</p>
+                <p>We specialise In supplying and fitting professional wood, stone and all other floor coverings.</p>
             </div>
         </div>
     </section>
