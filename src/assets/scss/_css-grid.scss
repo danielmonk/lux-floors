@@ -22,6 +22,30 @@
 			}
 		}
 	}
+	.blue-box{
+		height:100%;
+		padding: 2em;
+		background:_palette(bg);
+		max-height:408px;
+		position: relative;
+		min-height:275px;
+		a{
+			border-bottom:0px;
+			font-size: 1.75em;
+			position: absolute;
+			bottom: 10%;
+			width: 50%;
+			right: 10%;
+			text-align: right;
+
+			@include breakpoint(small) {
+				font-size: 2em;
+			}
+		}
+		p{
+			margin-bottom:0;
+		}
+	}
 }
 
 @media screen and (min-width: 981px) {

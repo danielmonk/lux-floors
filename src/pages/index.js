@@ -55,17 +55,14 @@ class HomeIndex extends React.Component {
                             <SRLWrapper>
                             <div className="grid-wrapper">
                                 <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
-                                <p><span>Wooden</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                                <p><span>Wooden</span> effects</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Bespoke</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Carpets</span></p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span><p><span>Safety</span> flooring</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Garage</span> flooring</p></div>
+                                <div className="col-4"><div className="blue-box"><Link to="/gallery"><p>View <span>full</span> gallery</p></Link></div></div>
                             </div>
                             </SRLWrapper>
-                            <ul className="actions">
-                                <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
-                            </ul>
                         </div>
                     </div>
                 </section>
@@ -123,7 +120,7 @@ class HomeIndex extends React.Component {
                                         <img src={fivestars} alt="" />
                                         "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
                                     <br />
-                                    <span className="name">John Smith</span>
+                                    <span className="name">Sacha Mooney</span>
                                     <p>July 2020</p>
                                     </blockquote>
                                 </div>
