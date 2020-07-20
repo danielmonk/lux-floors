@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-offline": "^3.0.32",
@@ -23,9 +25,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node server/index.js",
+    "start-app": "npm run build && npm run start-server"
   },
   "devDependencies": {
+    "nodemailer": "^6.4.3",
     "prettier": "^1.19.1"
   },
   "repository": {

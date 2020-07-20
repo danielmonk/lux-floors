@@ -1,21 +1,57 @@
-import React from 'react'
+import React, { useState } from 'react'
+import axios from 'axios';
 
-const Contact = (props) => (
+const Contact = () => {
+
+    const [state, setState] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+      });
+
+      const [result, setResult] = useState(null);
+    
+      const sendEmail = event => {
+        event.preventDefault();
+        axios
+         .post('/send', { ...state })
+         .then(response => {
+           setResult(response.data);
+           setState({ name: '', email: '', subject: '', message: '' });
+         })
+         .catch(() => {
+           setResult({ success: false,
+            message: 'Something went wrong. Try again later'});
+        });
+    };
+    
+      const onInputChange = event => {
+        const { name, value } = event.target;
+    
+        setState({
+          ...state,
+          [name]: value
+        });
+      };
+
+
+    return(
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="Contact Form" method="post" data-netlify="true" action="/success">
+                <form name="Contact Form" method="post" action="/success">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" />
+                        <input type="text" name="name" id="name" placeholder="Please enter your name" onChange={onInputChange} />
                     </div>
                     <div className="field half">
                         <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="email" id="email" placeholder="Please enter your email address" onChange={onInputChange} />
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6"></textarea>
+                        <textarea name="message" id="message" rows="6" placeholder="Please enter your message" onChange={onInputChange}></textarea>
                     </div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
@@ -50,6 +86,7 @@ const Contact = (props) => (
             </section>
         </div>
     </section>
-)
+    )
+}
 
 export default Contact
