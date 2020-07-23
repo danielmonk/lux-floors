@@ -1,60 +1,28 @@
-import React, { useState } from 'react'
-import axios from 'axios';
+import React from 'react'
 
-const Contact = () => {
-
-    const [state, setState] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-      });
-
-      const [result, setResult] = useState(null);
-    
-      const sendEmail = event => {
-        event.preventDefault();
-        axios
-         .post('/send', { ...state })
-         .then(response => {
-           setResult(response.data);
-           setState({ name: '', email: '', subject: '', message: '' });
-         })
-         .catch(() => {
-           setResult({ success: false,
-            message: 'Something went wrong. Try again later'});
-        });
-    };
-    
-      const onInputChange = event => {
-        const { name, value } = event.target;
-    
-        setState({
-          ...state,
-          [name]: value
-        });
-      };
-
-
-    return(
+const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form name="Contact Form" method="post" action="/success">
-                    <div className="field half first">
+                <form name="Contact Form" action="https://getform.io/f/eb81b04a-e2be-45d7-b55b-72ed5fd6b4d7" method="POST">
+                    <div className="field first">
                         <label htmlFor="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="Please enter your name" onChange={onInputChange} />
+                        <input type="text" name="name" id="name" required />
+                    </div>
+                    <div className="field half first">
+                        <label htmlFor="email">Email</label>
+                        <input type="text" name="email" id="email" required />
                     </div>
                     <div className="field half">
-                        <label htmlFor="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Please enter your email address" onChange={onInputChange} />
+                        <label htmlFor="phone">Phone</label>
+                        <input type="text" name="phone" id="phone" required/>
                     </div>
                     <div className="field">
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message" rows="6" placeholder="Please enter your message" onChange={onInputChange}></textarea>
+                        <textarea name="message" id="message" rows="6" required></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><button type="submit" value="Send Message" className="special">Send</button></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
@@ -71,7 +39,7 @@ const Contact = () => {
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>+44 000000000</span>
+                        <span>+44 7506125602</span>
                     </div>
                 </section>
                 <section>
@@ -86,7 +54,6 @@ const Contact = () => {
             </section>
         </div>
     </section>
-    )
-}
+)
 
 export default Contact

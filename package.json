@@ -13,6 +13,7 @@
     "gatsby-plugin-sass": "^2.1.27",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-bootstrap": "^1.2.2",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "simple-react-lightbox": "^3.2.3-3"
@@ -30,6 +31,7 @@
     "start-app": "npm run build && npm run start-server"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
     "nodemailer": "^6.4.3",
     "prettier": "^1.19.1"
   },

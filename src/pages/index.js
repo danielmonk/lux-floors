@@ -15,6 +15,8 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import garagepic from '../assets/images/img_1293.jpg'
+import garagepic2 from '../assets/images/img_1515-2.png'
+import carpetpic from '../assets/images/img_0497.png'
 import gallerypic1 from '../assets/images/img_1644.jpg'
 import gallerypic2 from '../assets/images/img_2125.jpg'
 import gallerypic3 from '../assets/images/img_2132.jpg'
@@ -50,16 +52,16 @@ class HomeIndex extends React.Component {
                     <header className="major smaller">
                          <h2 className="boxed">A solution for <span>all</span> your <span>flooring</span> needs</h2>
                     </header>
-                    <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+                    <p>Effortlessly transform your home with our diverse selection of luxury flooring, with functionality for everyday life and an extensive range of patterns and colours. Lux Floors products are exclusively sourced for the highest quality & ensuring  unrivalled craftsmanship.</p>
                         <div className="box alt">
                             <SRLWrapper>
                             <div className="grid-wrapper">
-                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span>
                                 <p><span>Wooden</span> effects</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Bespoke</span> floor</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Carpets</span></p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span><p><span>Bespoke</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={carpetpic} alt="" /></span><p><span>Carpets</span></p></div>
                                 <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span><p><span>Safety</span> flooring</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Garage</span> flooring</p></div>
+                                <div className="col-4"><span className="image fit"><img src={garagepic2} alt="" /></span><p><span>Garage</span> flooring</p></div>
                                 <div className="col-4"><div className="blue-box"><Link to="/gallery"><p>View <span>full</span> gallery</p></Link></div></div>
                             </div>
                             </SRLWrapper>
@@ -109,7 +111,7 @@ class HomeIndex extends React.Component {
                                 <div className="col col-4">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
-                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis."
                                     <br />
                                     <span className="name">John Smith</span>
                                     <p>July 2020</p>
@@ -118,7 +120,7 @@ class HomeIndex extends React.Component {
                                 <div className="col col-4">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
-                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                        "Harry provided a really professional service from start to finish. He made sure that we were happy with the flooring every step of the way and we were over the moon with the end result! Really great service and an excellent finish."
                                     <br />
                                     <span className="name">Sacha Mooney</span>
                                     <p>July 2020</p>
@@ -127,7 +129,7 @@ class HomeIndex extends React.Component {
                                 <div className="col col-4">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
-                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.""
+                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis."
                                     <br />
                                     <span className="name">John Smith</span>
                                     <p>July 2020</p>
