@@ -13,6 +13,7 @@ import gallerypic2 from '../assets/images/img_2125.jpg'
 import gallerypic3 from '../assets/images/img_2132.jpg'
 import gallerypic4 from '../assets/images/img_2133.jpg'
 import gallerypic5 from '../assets/images/img_2156.jpg'
+import safetyImg from '../assets/images/safety2.png'
 
 const Landing = (props) => (
 <SimpleReactLightbox>
@@ -35,9 +36,9 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="#" className="image">
+                    <div className="image">
                         <img src={gallerypic1} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -48,9 +49,9 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="#" className="image">
+                    <div className="image">
                         <img src={gallerypic2} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -71,9 +72,9 @@ const Landing = (props) => (
                     <SRLWrapper>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span>
-                            <p><span>Wooden</span> floor</p></div>
-                            <div className="col-4"><span className="image fit"><img src={gallerypic4} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                            <div className="col-4"><span className="image fit"><img src={gallerypic5} alt="" /></span><p><span>Wooden</span> floor</p></div>
+                            <p><span>Wooden</span> Effects</p></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic4} alt="" /></span><p><span>Bespoke</span> flooring</p></div>
+                            <div className="col-4"><span className="image fit"><img src={safetyImg} alt="" /></span><p><span>Safety</span> flooring</p></div>
                         </div>
                         <ul className="actions">
                             <li><Link to="/gallery" className="button">View Full Gallery</Link></li>

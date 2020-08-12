@@ -27,6 +27,7 @@ import gallerypic7 from '../assets/images/img_2534.jpg'
 import gallerypic8 from '../assets/images/img_3266.jpg'
 import gallerypic9 from '../assets/images/img_3505.jpg'
 import fivestars from '../assets/images/five-stars.png'
+import safetyImg from '../assets/images/safety2.png'
 
 
 class HomeIndex extends React.Component {
@@ -58,9 +59,9 @@ class HomeIndex extends React.Component {
                             <div className="grid-wrapper">
                                 <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span>
                                 <p><span>Wooden</span> effects</p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span><p><span>Bespoke</span> floor</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span><p><span>Bespoke</span> flooring</p></div>
                                 <div className="col-4"><span className="image fit"><img src={carpetpic} alt="" /></span><p><span>Carpets</span></p></div>
-                                <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span><p><span>Safety</span> flooring</p></div>
+                                <div className="col-4"><span className="image fit"><img src={safetyImg} alt="" /></span><p><span>Safety</span> flooring</p></div>
                                 <div className="col-4"><span className="image fit"><img src={garagepic2} alt="" /></span><p><span>Garage</span> flooring</p></div>
                                 <div className="col-4"><div className="blue-box"><Link to="/gallery"><p>View <span>full</span> gallery</p></Link></div></div>
                             </div>

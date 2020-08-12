@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerGarage from '../components/BannerGarage'
-
+import SimpleReactLightbox from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
@@ -12,6 +13,7 @@ import gallerypic2 from '../assets/images/img_2125.jpg'
 import gallerypic3 from '../assets/images/img_2132.jpg'
 import gallerypic4 from '../assets/images/img_2133.jpg'
 import garagepic from '../assets/images/img_1293.jpg'
+import safetyImg from '../assets/images/safety2.png'
 
 const Landing = (props) => (
     <Layout>
@@ -33,9 +35,9 @@ const Landing = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="#" className="image">
+                    <div className="image">
                         <img src={garagepic} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -49,9 +51,9 @@ const Landing = (props) => (
                     </div>
                 </section>
                 <section>
-                    <Link to="#" className="image">
+                    <div className="image">
                         <img src={garagepic} alt="" />
-                    </Link>
+                    </div>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
@@ -72,15 +74,17 @@ const Landing = (props) => (
                 </header>
                 <p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
                     <div className="box alt">
-                        <div className="grid-wrapper">
-                            <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span>
-                            <p><span>Wooden</span> floor</p></div>
-                            <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                            <div className="col-4"><span className="image fit"><img src={gallerypic3} alt="" /></span><p><span>Wooden</span> floor</p></div>
-                        </div>
-                        <ul className="actions">
-                            <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
-                        </ul>
+                        <SRLWrapper>
+                            <div className="grid-wrapper">
+                                <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span>
+                                <p><span>Wooden</span> Effects</p></div>
+                                <div className="col-4"><span className="image fit"><img src={gallerypic4} alt="" /></span><p><span>Bespoke</span> flooring</p></div>
+                                <div className="col-4"><span className="image fit"><img src={safetyImg} alt="" /></span><p><span>Safety</span> flooring</p></div>
+                            </div>
+                            <ul className="actions">
+                                <li><Link to="/gallery" className="button">View Full Gallery</Link></li>
+                            </ul>
+                        </SRLWrapper>
                     </div>
                 </div>
             </section>
