@@ -23,6 +23,7 @@ import bespoke1 from '../assets/images/IMG_0024@2x.png'
 import garage1 from '../assets/images/IMG_1516.png'
 import garage2 from '../assets/images/IMG_1515-2.png'
 import garage3 from '../assets/images/img_1293.jpg'
+import bespoke2 from '../assets/images/img_2133.jpg'
 
 const Elements = (props) => (
     <SimpleReactLightbox>
@@ -52,6 +53,8 @@ const Elements = (props) => (
                         <p><span>Bespoke</span> floor</p>
                         <div className="grid-wrapper">
                             <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={bespoke1} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={bespoke2} alt="" /></span></div>
                         </div>
                     </div>
                     <div className="box alt">
