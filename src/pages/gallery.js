@@ -28,9 +28,13 @@ import bespoke2 from '../assets/images/img_2133.jpg'
 const Elements = (props) => (
     <SimpleReactLightbox>
     <Layout>
-        <Helmet>
-            <title>Gallery</title>
-            <meta name="description" content="Gallery" />
+        <Helmet
+            title="Gallery | Lux Floors | Peterborough Premium Bespoke Flooring & Carpets"
+            meta={[
+                { name: 'description', content: 'We specialise in supplying and fitting professional wood, stone and all other floor coverings. Effortlessly transform your home with our diverse selection of luxury flooring, with functionality for everyday life and an extensive range of patterns and colours. Lux floors products are exclusively sourced for the highest quality & ensuring unrivalled craftsmanship.' },
+                { name: 'keywords', content: 'flooring, carpets, wooden floor, bespoke flooring, safety flooring, peterborough, cambridge, cambridgeshire, lux floors, luxurious flooring' },
+            ]}
+        >
         </Helmet>
 
         <div id="main" className="alt">

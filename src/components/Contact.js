@@ -42,6 +42,7 @@ const Contact = (props) => (
                         <span>+44 7506125602</span>
                     </div>
                 </section>
+                { /*
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
@@ -51,6 +52,7 @@ const Contact = (props) => (
                         Address Line 3</span>
                     </div>
                 </section>
+                */ }
             </section>
         </div>
     </section>

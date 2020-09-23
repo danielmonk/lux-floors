@@ -18,9 +18,13 @@ import safetyImg from '../assets/images/safety2.png'
 const Landing = (props) => (
 <SimpleReactLightbox>
     <Layout>
-        <Helmet>
-            <title>Lux Floors</title>
-            <meta name="description" content="Lux Floors" />
+    <Helmet
+            title="Lux Floors | Peterborough Premium Bespoke Flooring & Carpets"
+            meta={[
+                { name: 'description', content: 'We specialise in supplying and fitting professional wood, stone and all other floor coverings. Effortlessly transform your home with our diverse selection of luxury flooring, with functionality for everyday life and an extensive range of patterns and colours. Lux floors products are exclusively sourced for the highest quality & ensuring unrivalled craftsmanship.' },
+                { name: 'keywords', content: 'flooring, carpets, wooden floor, bespoke flooring, safety flooring, peterborough, cambridge, cambridgeshire, lux floors, luxurious flooring' },
+            ]}
+        >
         </Helmet>
 
         <BannerFloors />
