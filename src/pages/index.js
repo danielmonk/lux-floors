@@ -62,7 +62,7 @@ class HomeIndex extends React.Component {
                                 <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span><p><span>Bespoke</span> flooring</p></div>
                                 <div className="col-4"><span className="image fit"><img src={carpetpic} alt="" /></span><p><span>Carpets</span></p></div>
                                 <div className="col-4"><span className="image fit"><img src={safetyImg} alt="" /></span><p><span>Safety</span> flooring</p></div>
-                                <div className="col-4"><span className="image fit"><img src={garagepic2} alt="" /></span><p><span>Garage</span> flooring</p></div>
+                                { /* <div className="col-4"><span className="image fit"><img src={garagepic2} alt="" /></span><p><span>Garage</span> flooring</p></div> */ }
                                 <div className="col-4"><div className="blue-box"><Link to="/gallery"><p>View <span>full</span> gallery</p></Link></div></div>
                             </div>
                             </SRLWrapper>
@@ -87,6 +87,7 @@ class HomeIndex extends React.Component {
                             </div>
                         </section>
                         <section>
+                        { /* 
                         <Link to="/lux-garage" className="image">
                             <img src={garagepic} alt="" />
                         </Link>
@@ -101,6 +102,7 @@ class HomeIndex extends React.Component {
                                 </ul>
                             </div>
                         </div>
+                        */ }
                         </section>
                     </section>
                     <section id="two">

@@ -73,6 +73,7 @@ const Elements = (props) => (
                             <div className="col-4"><span className="image fit"><img src={safety3} alt="" /></span></div>
                         </div>
                     </div>
+                    { /*
                     <div className="box alt">
                         <p><span>Garage</span> flooring</p>
                         <div className="grid-wrapper">
@@ -81,6 +82,7 @@ const Elements = (props) => (
                             <div className="col-4"><span className="image fit"><img src={garage3} alt="" /></span></div>
                         </div>
                     </div>
+                    */ }
                     </SRLWrapper>
                 </div>
             </section>
