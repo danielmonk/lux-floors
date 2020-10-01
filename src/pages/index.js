@@ -111,7 +111,7 @@ class HomeIndex extends React.Component {
                                 <h3 className="boxed">What our <span>Clients</span> say about <span>us</span></h3>
                             </header>
                             <div className="grid-wrapper quotes">
-                                <div className="col col-4">
+                                <div className="col col-6">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
                                         "Harry provided a really professional service. He was very tidy and made sure I was happy with everything as he worked. I am over the moon with my floor and would absolutely have Harry back again!"
@@ -120,7 +120,7 @@ class HomeIndex extends React.Component {
                                     <p>May 2020</p>
                                     </blockquote>
                                 </div>
-                                <div className="col col-4">
+                                <div className="col col-6">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
                                         "Harry provided a really professional service from start to finish. He made sure that we were happy with the flooring every step of the way and we were over the moon with the end result! Really great service and an excellent finish."
