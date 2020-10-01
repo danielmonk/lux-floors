@@ -114,10 +114,10 @@ class HomeIndex extends React.Component {
                                 <div className="col col-4">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
-                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis."
+                                        "Harry provided a really professional service. He was very tidy and made sure I was happy with everything as he worked. I am over the moon with my floor and would absolutely have Harry back again!"
                                     <br />
-                                    <span className="name">John Smith</span>
-                                    <p>July 2020</p>
+                                    <span className="name">Maggie</span>
+                                    <p>May 2020</p>
                                     </blockquote>
                                 </div>
                                 <div className="col col-4">
@@ -125,16 +125,7 @@ class HomeIndex extends React.Component {
                                         <img src={fivestars} alt="" />
                                         "Harry provided a really professional service from start to finish. He made sure that we were happy with the flooring every step of the way and we were over the moon with the end result! Really great service and an excellent finish."
                                     <br />
-                                    <span className="name">Sacha Mooney</span>
-                                    <p>July 2020</p>
-                                    </blockquote>
-                                </div>
-                                <div className="col col-4">
-                                    <blockquote>
-                                        <img src={fivestars} alt="" />
-                                        "Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis."
-                                    <br />
-                                    <span className="name">John Smith</span>
+                                    <span className="name">Sacha</span>
                                     <p>July 2020</p>
                                     </blockquote>
                                 </div>
