@@ -114,7 +114,7 @@ class HomeIndex extends React.Component {
                                 <div className="col col-6">
                                     <blockquote>
                                         <img src={fivestars} alt="" />
-                                        "Harry provided a really professional service. He was very tidy and made sure I was happy with everything as he worked. I am over the moon with my floor and would absolutely have Harry back again!"
+                                        "Harry was very tidy and made sure I was happy with everything as he worked. I am over the moon with my floor and would absolutely have Harry back again! A very professional job."
                                     <br />
                                     <span className="name">Maggie</span>
                                     <p>May 2020</p>
