@@ -73,7 +73,7 @@ const Elements = (props) => (
                         <div className="grid-wrapper gallery">
                             <div className="col-4"><span className="image fit"><img src={gallerypic2} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={gallerypic7} alt="" /></span></div>
-                            <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={bespoke2} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={woodeffect1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={woodeffect2} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={woodeffect3} alt="" /></span></div>
@@ -89,7 +89,7 @@ const Elements = (props) => (
                         <div className="grid-wrapper gallery">
                             <div className="col-4"><span className="image fit"><img src={gallerypic6} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={bespoke1} alt="" /></span></div>
-                            <div className="col-4"><span className="image fit"><img src={bespoke2} alt="" /></span></div>
+                            <div className="col-4"><span className="image fit"><img src={gallerypic1} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={bespoke3} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={bespoke4} alt="" /></span></div>
                             <div className="col-4"><span className="image fit"><img src={bespoke5} alt="" /></span></div>
