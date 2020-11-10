@@ -32,6 +32,7 @@ import tile1 from '../assets/images/tile-effect-1.png'
 
 
 class HomeIndex extends React.Component {
+
     render() {
 
         return (
