@@ -32,14 +32,14 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">info@luxfloors.co.uk</a>
+                        <a href="mailto:info@luxfloors.co.uk">info@luxfloors.co.uk</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>+44 7506125602</span>
+                        <a href="tel:07506125602">+44 7506125602</a>
                     </div>
                 </section>
                 { /*
