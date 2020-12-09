@@ -38,14 +38,17 @@ class HomeIndex extends React.Component {
         return (
             <SimpleReactLightbox>
             <Layout>
-                <Helmet
-                    title="Lux Floors | Peterborough Premium Bespoke Flooring & Carpets"
-                    meta={[
-                        { name: 'description', content: 'We specialise in supplying and fitting professional wood, stone and all other floor coverings. Effortlessly transform your home with our diverse selection of luxury flooring, with functionality for everyday life and an extensive range of patterns and colours. Lux floors products are exclusively sourced for the highest quality & ensuring unrivalled craftsmanship.' },
-                        { name: 'keywords', content: 'flooring, carpets, wooden floor, bespoke flooring, safety flooring, peterborough, cambridge, cambridgeshire, lux floors, luxurious flooring' },
-                    ]}
-                >
+            <Helmet>
+                    <title>Lux Floors | Peterborough Premium Bespoke Flooring & Carpets</title>
+                    <meta name="description" content="We specialise in supplying and fitting professional wood, stone and all other floor coverings. Effortlessly transform your home with our diverse selection of luxury flooring, with functionality for everyday life and an extensive range of patterns and colours. Lux floors products are exclusively sourced for the highest quality & ensuring unrivalled craftsmanship" />
+                    <meta name="keywords" content="flooring, carpets, wooden floor, bespoke flooring, safety flooring, peterborough, cambridge, cambridgeshire, lux floors, luxurious flooring" />
+                    <script>{`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-KPPZ658');`}</script>
                 </Helmet>
+
 
                 <Banner />
 
