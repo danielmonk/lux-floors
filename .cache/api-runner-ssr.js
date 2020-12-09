@@ -8,6 +8,12 @@ var plugins = [{
       plugin: require('/Users/danielmonk/Sites/lux-floors/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"'UA-182568014-1"},
     },{
+<<<<<<< HEAD
+=======
+      plugin: require('/Users/danielmonk/Sites/lux-floors/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
+      options: {"plugins":[],"id":"GTM-KPPZ658","includeInDevelopment":false,"defaultDataLayer":{"type":"object","value":{"platform":"gatsby"}},"gtmAuth":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING","gtmPreview":"YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME","dataLayerName":"YOUR_DATA_LAYER_NAME","routeChangeEventName":"YOUR_ROUTE_CHANGE_EVENT_NAME"},
+    },{
+>>>>>>> a0b2c041c88c415ae5e456c1aa84e7254e7d2a76
       plugin: require('/Users/danielmonk/Sites/lux-floors/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     }]

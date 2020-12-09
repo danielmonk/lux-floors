@@ -11,7 +11,6 @@ exports.components = {
   "component---src-pages-gallery-js": hot(preferDefault(require("/Users/danielmonk/Sites/lux-floors/src/pages/gallery.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/danielmonk/Sites/lux-floors/src/pages/index.js"))),
   "component---src-pages-lux-floors-js": hot(preferDefault(require("/Users/danielmonk/Sites/lux-floors/src/pages/lux-floors.js"))),
-  "component---src-pages-lux-garage-js": hot(preferDefault(require("/Users/danielmonk/Sites/lux-floors/src/pages/--lux-garage.js"))),
   "component---src-pages-success-js": hot(preferDefault(require("/Users/danielmonk/Sites/lux-floors/src/pages/success.js")))
 }
 
