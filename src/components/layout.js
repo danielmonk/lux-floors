@@ -40,6 +40,8 @@ class Layout extends React.Component {
 
         return (
             <div className={`body ${this.state.loading} ${this.state.isMenuVisible ? 'is-menu-visible' : ''}`}>
+                <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPPZ658"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
